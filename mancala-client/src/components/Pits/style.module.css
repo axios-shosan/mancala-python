@@ -1,0 +1,48 @@
+.pitWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pits {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 7px solid #c09350;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pitWrapper:hover {
+  transform: scale(0.9);
+}
+
+.human {
+  border: 5px solid #c09350;
+  color: #c09350;
+}
+
+.computer {
+  border: 5px solid #82b3fd;
+  color: #82b3fd;
+}
+
+.humanLabel {
+  color: #c09350;
+}
+
+.computerLabel {
+  color: #82b3fd;
+}
+
+.pitDisabled .pit,
+.pitDisabled > .pitWrapper:hover,
+.pitDisabled .computer,
+.pitDisabled .human {
+  border: 5px solid rgb(68, 68, 68);
+  color: #000;
+  transform: scale(1);
+}

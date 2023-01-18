@@ -1,0 +1,68 @@
+.homeHeader {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 5em auto 2em auto;
+}
+
+.headerTitle {
+  font-size: 2em;
+  font-weight: bolder;
+  margin: auto;
+}
+
+/* CSS */
+.headerButton {
+  background-color: transparent;
+  border: 2px solid #c09350;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #c09350;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  margin: 4em auto 0 auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow 0.2s, -ms-transform 0.1s, -webkit-transform 0.1s,
+    transform 0.1s;
+  width: 200px;
+}
+
+.headerButton:focus-visible {
+  box-shadow: #c09350 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow 0.2s;
+}
+
+.headerButton:hover {
+  border-color: #c09350;
+  color: #fff;
+  background-color: #c09350;
+}
+
+.headerButton:active {
+  border-color: #c09350;
+  transform: scale(0.96);
+}
+
+.headerButton:disabled {
+  border-color: #c09350;
+  color: #c09350;
+  cursor: not-allowed;
+  opacity: 1;
+}

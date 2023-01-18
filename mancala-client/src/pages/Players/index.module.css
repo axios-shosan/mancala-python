@@ -1,0 +1,80 @@
+.homeHeader {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 1.2em auto 2em auto;
+}
+
+.headerTitle {
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin: auto;
+}
+
+.gameContainer {
+  width: 95vw;
+  margin: 3em auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deck {
+  width: 150px;
+  height: 334px;
+  border-radius: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deck p {
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.pitsContainer {
+  width: 100%;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.playerPits {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.human {
+  border: 5px solid #c09350;
+  color: #c09350;
+}
+
+.computer {
+  border: 5px solid #82b3fd;
+  color: #82b3fd;
+}
+
+.humanLabel {
+  color: #c09350;
+}
+
+.computerLabel {
+  color: #82b3fd;
+}
+
+.stats {
+  text-align: center;
+}
